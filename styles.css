@@ -1,0 +1,31 @@
+html{
+    background-color: #f9ecb7;
+}
+
+.site-links{
+    list-style-type: none;
+    padding: 0;
+    display: flex;  
+    background-color: #fdf8fa;
+    padding: 10px;
+
+}
+
+.site-link {
+    background-color: #f6b1d1;
+    margin: 0 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    color: #9228af;
+    display: inline-block;
+
+}
+
+
+.site-link:hover {
+    background-color: #f282b6;
+    color: #7d1d97;
+    font-weight: bold;
+    
+}
