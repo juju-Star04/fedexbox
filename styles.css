@@ -1,18 +1,28 @@
 html{
-    background-color: #f9ecb7;
+    background-color: #fbf5e0;
+    display: flex;
+    width: 900%;
+    margin: 0 auto;      
+    max-width: 900px;
+
 }
 
 .site-links{
     list-style-type: none;
     padding: 0;
     display: flex;  
-    background-color: #fdf8fa;
     padding: 10px;
 
 }
 
+.content{
+    background-color: #fcf9fb;
+
+    
+}
+
 .site-link {
-    background-color: #f6b1d1;
+    background-color: #f7d3e4;
     margin: 0 10px;
     padding: 10px 20px;
     text-decoration: none;
@@ -24,8 +34,45 @@ html{
 
 
 .site-link:hover {
-    background-color: #f282b6;
+    background-color: #f1b3d0;
     color: #7d1d97;
     font-weight: bold;
     
 }
+
+.flex-container {
+    margin: 10px;
+    background-color: #cdefc4;
+    width: 30%;
+    padding: 20px;
+}
+
+ 
+.wrapper {
+    display: flex;
+    gap: 0rem;
+    margin: 0 auto;
+}
+
+
+
+.wrapper .main {
+    flex: 1;
+}
+
+
+
+.links {
+    background-color: #f2e0f3;
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 2dvh;
+}
+
+.main{
+    background-color: #f9f5a8;
+    margin: 10px;
+    width: 30%;
+    padding: 20px;
+}
+
